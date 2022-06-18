@@ -1,0 +1,26 @@
+{{- define "main" }}
+<section class="l-container_content">
+  <div class="card" data-taxonomy="{{ print .Page.Section "-" .Page.Title | urlize }}">
+    <h1 class="card-title">{{ .Data.Singular | humanize }}: {{ .Title }}</h1>
+    {{ .Content }}
+  </div>
+  {{- range .Paginator.Pages }}
+  <article class="card">
+    <figure>
+      <a href="{{ .RelPermalink }}"><img src="{{ .Params.image }}" ></a>
+    </figure>
+    {{ partialCached "entry/header" . .Page }}
+
+    {{- if .Params.tags }}
+    {{ $tags := sort .Params.tags }}
+    {{ $variant := printf "%x" $tags }}
+    {{ partialCached "entry/footer.html" . $variant }}
+    {{- end }}
+  </article>
+  {{- end }}
+</section>
+{{- end }}
+
+{{- define "pagination" }}
+  {{ partial "pagination" . }}
+{{- end }}

@@ -1,0 +1,24 @@
+{{- define "main" }}
+<section class="l-container_content">
+  {{ $paginator := .Paginate (cond .IsHome (where site.RegularPages "Type" "in" site.Params.mainSections) (.Data.Pages) ) }}
+  {{ range $paginator.Pages }}
+  <article class="card">
+    <figure>
+      <a href="{{ .RelPermalink }}"><img src="{{ .Params.image }}" ></a>
+    </figure>
+    {{ partialCached "entry/header" . .Page }}
+
+    {{- if .Params.tags }}
+    {{ $tags := sort .Params.tags }}
+    {{ $variant := printf "%x" $tags }}
+    {{ partialCached "entry/footer.html" . $variant }}
+    {{- end }}
+  </article>
+  {{- end }}
+</section>
+{{- end }}
+
+{{- define "pagination" }}
+
+{{ partial "pagination" . }}
+{{- end }}
