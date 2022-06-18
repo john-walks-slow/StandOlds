@@ -1,0 +1,38 @@
+---
+title: "GM Foods Part 2: A Tool We Can’t Turn Away From?"
+author: "Go Green Hong Kong"
+date: "2015-05-28T16:09:00"
+categories:
+  - "Green"
+tags: []
+topics: []
+image: "http://web.archive.org/web/2021im_/https://assets.thestandnews.com/media/photos/spraying-roundup-on-beans-3_Occ2q.jpg"
+original_url: "thestandnews.com/nature/gm-foods-part-2-a-tool-we-can-t-turn-away-from"
+---
+![](http://web.archive.org/web/2021im_/https://assets.thestandnews.com/media/photos/spraying-roundup-on-beans-3_Occ2q.jpg)
+
+**Spraying Roundup herbicide on Roundup Ready crops to kill weeds**
+
+_By Kristian Johnson. A graduate of Johns Hopkins University, Kristian is preparing for a career in agriculture and forestry. He is currently undertaking an internship at Wildroots Organic Farm. His goal is to help conserve forests through sustainable farming practices._
+
+In Part 1, the potential of GMOs to fundamentally change the way we grow food was explored. Of course it isn’t all upside and there is risk when transitioning technology from the lab to the field. But as GM technology is just a plant breeding tool, it’s more pressing to look at the context in which it’s being used and to what end. As of now it has been reduced to a bandaid for maintaining an unsustainable system of industrial farming. Because of this, claims that GM crops can benefit humans (by improving the nutritional content) and the environment (by reducing chemical use on farms) have not been realized.
+
+GM crops are by current metrics safe to humans and the environment. They are without a doubt less harmful than pesticides sprayed on open fields that contaminate water supplies and nearby forests. Regardless, there are reasons to be careful, changing the complex dynamics of ecosystems will have consequences. Crops engineered to kill insects could disrupt natural ecosystems. Another concern is the unlikely possibility that the engineered genes may be passed on to other species via cross-pollination. This could spread herbicide resistance on to weeds or unintentionally kill beneficial insects.
+
+The biggest issue is what GM technology is being used in service of – propping up our current system of industrial agriculture. Industrial agriculture involves growing monocultures or miles and miles of a single crop. While maximizing efficiency, it sacrifices the resiliency of a farm in the face of pest and plant diseases by completely destroying the ecology for the purpose of growing one crop. With only a single crop, pest and diseases can spread like wildfire causing great damage. Hence, these fields require extremely potent chemical pesticides to protect them.
+
+For industrial farms to switch to alternative systems based on creating diversity and balance to counter pest and disease (such as organic farming) requires a complete transformation and significant input of labor. Rather than radically change, industrial agriculture is turning to GMOs, in some cases to replace chemicals. The reality is that GM technology when paired with monocultures leaves it vulnerable to adaptation by weeds and insects, quickly making the technology obsolete.
+
+Bacillus thuringiensis (or Bt) is a naturally occurring bacterium that is commonly sprayed on crops by organic farmers to kill pests. Monsanto developed a line of corn seeds genetically engineered to produce it’s own Bt, thereby eliminating the need to spray it. In order to ensure pests do not develop resistance to Bt, scientists recommended planting 50% of a field with ‘refuges’ of non-Bt engineered crops. Insects in the ‘refuges’ would not develop resistance to Bt (because they are not exposed to it). These non-resistant insects would ideally mate with any surviving resistant insects from the fields that were planted with Bt-engineered crops thereby diluting the overall genetic resistance of the insect population.
+
+Arguing that the requirement to plant 50% of a field with non-Bt engineered seeds would effectively cuts yield in half, agribusiness and farmers lobbied to bring it down to [5%](http://web.archive.org/web/20210710132254/http://civileats.com/2014/03/20/new-science-sounds-the-alarm-about-destructive-beetles-on-gmo-corn/). These refuges were so small as to be ineffective. Thus the whole system had to rely on the performance of the Bt toxin to kill all the pests so that there would be no survivors to transmit the resistance gene. However, not every plant produces the same level of the Bt toxin. This creates a chink in the armor that some insects, like the corn rootworm, can exploit. In 2009, [rootworms](http://web.archive.org/web/20210710132254/http://www.wired.com/2014/03/rootworm-resistance-bt-corn/) developed resistance to two strains of Bt toxin, resulting in heavy crop losses for farmers. Interestingly, organic farmers have been spraying Bt on crops for decades with no reported incidences of resistance to Bt developing in pests. This illustrates some of the unforeseeable consequences of genetic engineering.
+
+GM research has also been focused on developing crop species that are resistant to herbicides or weed killers. In order to enable farmers to spray herbicide without also killing their crops, the crops are genetically engineered to be resistant to the weed killer. Roundup, Monsanto’s most successful herbicide is highly effective, less toxic than alternatives and above all cheap. Monsanto engineered a line of corn and soya seeds that are resistant to Roundup. This created a double win for Monsanto – sales of both Roundup Ready seeds and Roundup herbicide increased.
+
+Farmers began to indiscriminately spray Roundup because they could now kill weeds without also damaging crops currently planted in the ground (previously they were limited to spraying herbicides before planting). This quickly led to the rise of superweeds that are resistant to it. In order to deal with the superweeds, farmers resorted to also spraying more toxic alternatives, like 2,4-D (a cousin of infamous Agent Orange). Predictably Monsanto is developing GM crops that are resistant to both 2,4-D and Roundup.
+
+This increased use of herbicides completely offset the decrease in use of pesticides. Pesticide sales fell as a result of Bt-engineered crops, but herbicide usage jumped by [239 million kilos](http://web.archive.org/web/20210710132254/http://www.enveurope.com/content/24/1/24). From 1996 to 2011, total chemical use on farms increased by 7% thanks to genetically engineered Roundup Ready crops. Genetic engineering thus created unknown risks without providing any benefit to the environment.
+
+In spite of all these drawbacks and risks, what can’t be ignored is that GM technology is one of the cleanest new tools of modern agriculture. While technology can improve how we breed new plants, the result is ultimately dependent how and to what end we apply it. GM technology should not be used to try and save an unsustainable system of industrial agriculture. The next wave of GMOs also shouldn’t be used to create seeds to promote the use of toxic herbicides such as Roundup or 2,4-D. GM technology should be used instead to develop disease resistant and nutrient enhanced versions of global staples such as cassava, thereby improving the lives of many in the developing world. Combined with sustainable practices such as those found in organic farming, GM technology when used responsibly could point to a new way forward for agriculture.
+
+原刊於 [Go Green 網頁](http://web.archive.org/web/20210710132254/https://gogreenhk.wordpress.com/2015/05/24/gm-foods-part-2-a-tool-we-cant-turn-away-from/)

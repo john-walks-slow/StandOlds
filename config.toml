@@ -1,0 +1,78 @@
+baseURL= "/"
+languageCode= "zh-HK"
+title= "StandOlds"
+# theme= "newsroom"
+theme= "calligraphy"
+contentDir= "./demo_content"
+# contentDir= "../standnews/md"
+paginate = 24
+# paginate = 3
+enableInlineShortcodes = true
+enableEmoji = true
+
+[params]
+  tagline = "立場新聞 2015~2021"
+  cdn = false
+  # feature = "img/screenshot.jpg"
+
+[params.meta]
+  baseOGImage = "img/screenshot.jpg"
+  faviconComplete = true
+  faviconSVG = true
+  faviconVersion = ""
+  faviconMSColor = "#00aba9"
+  faviconiOSColor = "#00aba9"
+
+[[menu.main]]
+  identifier = "categories"
+  name = "分類"
+  url = "/categories/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "topics"
+  name = "專題"
+  url = "/topics/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "tags"
+  name = "標籤"
+  url = "/tags/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "author"
+  name = "作者"
+  url = "/author/"
+  weight = 4
+
+################################################################################
+######       The block below has additional configuration settings.        #####
+######         Users can edit, but for most it won't be necessary.         #####
+################################################################################
+
+[taxonomies]
+  topics = "topics"
+  author = "author"
+  categories = "categories"
+  tags = "tags"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.goldmark.parser.attribute]
+  block = true
+
+[module.hugoVersion]
+  extended = true
+  min = "0.89.0"
+
+[privacy.twitter]
+  enableDNT = true
+
+[privacy.vimeo]
+  enableDNT = true
+
+[privacy.youtube]
+  privacyEnhanced = true
