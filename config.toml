@@ -25,16 +25,23 @@ environment = "production"
   faviconiOSColor = "#00aba9"
 
 [[menu.main]]
-  identifier = "categories"
+  identifier = "專題"
+  name = "專題"
+  url = "/topics/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "分類"
   name = "分類"
   url = "/categories/"
   weight = 2
 
 [[menu.main]]
-  identifier = "topics"
-  name = "專題"
-  url = "/topics/"
-  weight = 1
+  identifier = "關於"
+  name = "關於"
+  url = "/about/"
+  weight = 3
+
 
 ################################################################################
 ######       The block below has additional configuration settings.        #####
@@ -42,8 +49,8 @@ environment = "production"
 ################################################################################
 
 [taxonomies]
-  topics = "topics"
-  categories = "categories"
+  topic = "topics"
+  category = "categories"
 
 [markup.goldmark.renderer]
   unsafe = true

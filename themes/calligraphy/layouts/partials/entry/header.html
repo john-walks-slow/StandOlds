@@ -1,8 +1,8 @@
 <header class="card-header">
   {{ with .Params.Series }}<a href="/series/{{ . | urlize }}" class="card-banner" data-taxonomy="{{ print "series-" . | urlize }}">{{ . }}</a>{{ end }}
   <div class="card-meta">
-    {{ $readTime := mul (div (countwords .Content) 400.0) 60 }}
-  {{ $minutes := math.Floor (div $readTime 60) }}
+    {{ $readTime := mul (div (countwords .Content) 480.0) 60 }}
+  {{ $minutes := math.Ceil (div $readTime 60) }}
     <span>{{ with .PublishDate }}<time datetime="{{ . }}">{{ cond (eq (.Format "2006") (now.Format "2006")) (.Format "Jan 2") (.Format "Jan 2 2006") }}</time> · {{ end }}{{ $minutes }} min read</span>
     {{- if .Params.categories }}
     <ul class="taxonomy-list_categories">
