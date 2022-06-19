@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+  <title>
+    
+    Liquidity 到底是甚麼？用人話談「流動性」的常識 | StandOlds
+    
+  </title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <meta name="description" content="作者製圖
+ 密碼貨幣媒體經常提到「流動性」，但很少會解釋它。反過來，讀者會視它為常用詞，覺得不用深究隱約都懂，但要自己去說清楚，又好像不知從何說起。
+讓我嘗試用人話，聊聊「流動性」是甚麼，如何衡量，背後又有甚麼意義。
+流動性是甚麼
+雖然我們是從密碼貨幣的語境去談，但流動性的概念適用於任何商品。先來玩個簡單的遊戲吧，相信三歲的港孩都懂（說來挺可悲的）：封面圖中兩種房子，哪個流動性較高？
+大家一看就知道了，是左邊。右邊的是香港的「村屋」，左邊的是我老家沙田的第一城，經典大型屋苑。村屋的間隔、坐向、景觀、保養等落差很大，每個賣盤都不一樣，買家要花很多工夫去發現去挑選，賣家要花很多時間去尋找合適買家。反過來，大型屋苑各方面都很標準，成交價又很透明，買賣雙方的撮合簡單快捷，甚至不用看房就可以成交的個案也很普遍。因此，大型屋苑的流動性高於村屋。
+再來：二手 iPhone、二手 Android 電話，哪個的流動性高？當然是前者了。
+有了以上兩個例子，概念就比較清晰了。所謂流動性，用人話說不外乎是：
+想買的可以買到，想賣的能賣得出。
+而當流動性足夠高，效果是：
+很多人買，還是能買到，而且價格不會大幅上漲；
+很多人賣，還是能賣出，而且價格不會大幅下跌。
+密碼貨幣的流動性如何運作
+大學時曾選修過經濟課 BB 班 ECO 1110，內容已經忘掉 99%，唯一記得的是教授總是畫出兩條相交的橫直線，X 軸寫上 A，Y 軸寫上 B，解釋供求關係。笨笨的我，居然過了幾個月才知道，原來 A 是代表 Apple，B 是代表 Banana。
+向教授致敬也致歉，我沿用例子，以 APPLE 和 BANANA 兩種密碼貨幣，極簡解釋無大台交易所如何提供流動性。首先，我們要認識「流動性池」liquidity pool，一般簡稱 LP。
+蘋果香蕉流動性池 A-B LP，就是有人預先投入一定數量的 APPLE 和 BANANA，讓人可以隨時以 A 兌換（swap）B，或者以 B 兌換 A。比如 A-B LP 裡面放著 100 APPLE 和 100 BANANA，那麼 Alice 就可以付出 1 B 來換得接近 1 A，Bob 也可以付出 1 A 以換得接近 1 B。很簡單吧？">
+  <meta name="generator" content="Hugo 0.92.0" />
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="/css/bundle.min.8ba707073d466c5e3c745337b91eaa6e5f8534dc71a94204936418e2754b1819.css" crossorigin="anonymous" integrity="sha256-i6cHBz1GbF48dFM3uR6qbl&#43;FNNxxqUIEk2QY4nVLGBk=">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+  
+  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#00aba9">
+  
+  <link rel="shortcut icon" href="/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#00aba9">
+  <meta name="keywords" content="加密貨幣, LikeCoin, 密碼貨幣, Osmosis, Liquidity, 流動性">
+  <meta name="og:title" content="Liquidity 到底是甚麼？用人話談「流動性」的常識">
+  <meta name="og:description" content="作者製圖
+ 密碼貨幣媒體經常提到「流動性」，但很少會解釋它。反過來，讀者會視它為常用詞，覺得不用深究隱約都懂，但要自己去說清楚，又好像不知從何說起。
+讓我嘗試用人話，聊聊「流動性」是甚麼，如何衡量，背後又有甚麼意義。
+流動性是甚麼
+雖然我們是從密碼貨幣的語境去談，但流動性的概念適用於任何商品。先來玩個簡單的遊戲吧，相信三歲的港孩都懂（說來挺可悲的）：封面圖中兩種房子，哪個流動性較高？
+大家一看就知道了，是左邊。右邊的是香港的「村屋」，左邊的是我老家沙田的第一城，經典大型屋苑。村屋的間隔、坐向、景觀、保養等落差很大，每個賣盤都不一樣，買家要花很多工夫去發現去挑選，賣家要花很多時間去尋找合適買家。反過來，大型屋苑各方面都很標準，成交價又很透明，買賣雙方的撮合簡單快捷，甚至不用看房就可以成交的個案也很普遍。因此，大型屋苑的流動性高於村屋。
+再來：二手 iPhone、二手 Android 電話，哪個的流動性高？當然是前者了。
+有了以上兩個例子，概念就比較清晰了。所謂流動性，用人話說不外乎是：
+想買的可以買到，想賣的能賣得出。
+而當流動性足夠高，效果是：
+很多人買，還是能買到，而且價格不會大幅上漲；
+很多人賣，還是能賣出，而且價格不會大幅下跌。
+密碼貨幣的流動性如何運作
+大學時曾選修過經濟課 BB 班 ECO 1110，內容已經忘掉 99%，唯一記得的是教授總是畫出兩條相交的橫直線，X 軸寫上 A，Y 軸寫上 B，解釋供求關係。笨笨的我，居然過了幾個月才知道，原來 A 是代表 Apple，B 是代表 Banana。
+向教授致敬也致歉，我沿用例子，以 APPLE 和 BANANA 兩種密碼貨幣，極簡解釋無大台交易所如何提供流動性。首先，我們要認識「流動性池」liquidity pool，一般簡稱 LP。
+蘋果香蕉流動性池 A-B LP，就是有人預先投入一定數量的 APPLE 和 BANANA，讓人可以隨時以 A 兌換（swap）B，或者以 B 兌換 A。比如 A-B LP 裡面放著 100 APPLE 和 100 BANANA，那麼 Alice 就可以付出 1 B 來換得接近 1 A，Bob 也可以付出 1 A 以換得接近 1 B。很簡單吧？">
+  <meta name="og:type" content="article">
+  <meta name="og:site_name" content="StandOlds">
+  <meta name="og:url" content="/topic/liquidity-%E5%88%B0%E5%BA%95%E6%98%AF%E7%94%9A%E9%BA%BC%E7%94%A8%E4%BA%BA%E8%A9%B1%E8%AB%87%E6%B5%81%E5%8B%95%E6%80%A7%E7%9A%84%E5%B8%B8%E8%AD%98/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="og:image" content="">
+  <meta name="twitter:image" content="">
+  
+  
+  
+  
+</head>
+
+<body>
+
+  <script type="text/javascript">
+    
+    function detectTheme() {
+      var theme = "light";
+
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        var theme = "dark";
+      }
+
+      if (localStorage.getItem("theme")) {
+        var theme = localStorage.getItem("theme");
+      }
+
+      if (theme == "dark") {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    }
+
+    detectTheme();
+  </script>
+  
+  <header id="site-header" class="l-compact">
+  <nav class="l-container_site">
+    <div class="branding">
+        <h1 class="branding-title">
+          <a href="/" accesskey="h" title="Home (Alt + H)">StandOlds</a>
+        </h1>
+      <p class="branding-tagline">立場新聞 2015~2021 精選</p>
+    </div>
+    
+    <div id="site-nav">
+      <label class="toggle" accesskey="n" title="Open Site Navigation (Alt + N)">
+        <input id="nav-toggle" type="checkbox"></input>
+        <span class="nav-button"></span>
+      </label>
+      <ul class="menu">
+        <li class="menu-item">
+          <a href="/topics/">專題</a>
+        </li>
+        <li class="menu-item">
+          <a href="/categories/">分類</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <progress id="reading-progress" max="100" value="0" ></progress>
+</header>
+
+  
+
+  <main id="site-main" role="main">
+    
+<article class="l-container_content card">
+  <header class="card-header">
+  
+  <div class="card-meta">
+    
+  
+    <span><time datetime="2021-11-29 19:30:00 &#43;0000 UTC">Nov 29 2021</time> · 4 min read</span>
+    <ul class="taxonomy-list_categories">
+      <li><a href="/categories/%E8%B2%A1%E7%B6%93/" class="taxonomy-item">財經</a></li>
+    </ul>
+  </div>
+  <h1 class="card-title"><a href="/topic/liquidity-%E5%88%B0%E5%BA%95%E6%98%AF%E7%94%9A%E9%BA%BC%E7%94%A8%E4%BA%BA%E8%A9%B1%E8%AB%87%E6%B5%81%E5%8B%95%E6%80%A7%E7%9A%84%E5%B8%B8%E8%AD%98/">Liquidity 到底是甚麼？用人話談「流動性」的常識</a></h1>
+  
+
+  
+
+</header>
+
+  <section class="card-content">
+    <p>
+
+<figure>
+    <a href="http://web.archive.org/web/2020im_/https://assets.thestandnews.com/media/photos/hshscgdfkghcjjklhjg.png" target="calligraphy-image">
+      <img loading="lazy" src="http://web.archive.org/web/2020im_/https://assets.thestandnews.com/media/photos/hshscgdfkghcjjklhjg.png" alt="A Decorative Image">
+    </a>
+  
+</figure>
+</p>
+<blockquote>
+<p>作者製圖</p>
+</blockquote>
+<p>密碼貨幣媒體經常提到「流動性」，但很少會解釋它。反過來，讀者會視它為常用詞，覺得不用深究隱約都懂，但要自己去說清楚，又好像不知從何說起。</p>
+<p>讓我嘗試用人話，聊聊「流動性」是甚麼，如何衡量，背後又有甚麼意義。</p>
+<p><strong>流動性是甚麼</strong></p>
+<p>雖然我們是從密碼貨幣的語境去談，但流動性的概念適用於任何商品。先來玩個簡單的遊戲吧，相信三歲的港孩都懂（說來挺可悲的）：封面圖中兩種房子，哪個流動性較高？</p>
+<p>大家一看就知道了，是左邊。右邊的是香港的「村屋」，左邊的是我老家沙田的第一城，經典大型屋苑。村屋的間隔、坐向、景觀、保養等落差很大，每個賣盤都不一樣，買家要花很多工夫去發現去挑選，賣家要花很多時間去尋找合適買家。反過來，大型屋苑各方面都很標準，成交價又很透明，買賣雙方的撮合簡單快捷，甚至不用看房就可以成交的個案也很普遍。因此，<strong>大型屋苑的流動性高於村屋</strong>。</p>
+<p>再來：二手 iPhone、二手 Android 電話，哪個的流動性高？當然是前者了。</p>
+<p>有了以上兩個例子，概念就比較清晰了。所謂流動性，用人話說不外乎是：</p>
+<p><strong>想買的可以買到，想賣的能賣得出。</strong></p>
+<p>而當流動性足夠高，效果是：</p>
+<p><strong>很多人買，還是能買到，而且價格不會大幅上漲；<br>
+很多人賣，還是能賣出，而且價格不會大幅下跌。</strong></p>
+<p><strong>密碼貨幣的流動性如何運作</strong></p>
+<p>大學時曾選修過經濟課 BB 班 ECO 1110，內容已經忘掉 99%，唯一記得的是教授總是畫出兩條相交的橫直線，X 軸寫上 A，Y 軸寫上 B，解釋供求關係。笨笨的我，居然過了幾個月才知道，原來 A 是代表 Apple，B 是代表 Banana。</p>
+<p>向教授致敬也致歉，我沿用例子，以 APPLE 和 BANANA 兩種密碼貨幣，極簡解釋無大台交易所如何提供流動性。首先，我們要認識「流動性池」liquidity pool，一般簡稱 LP。</p>
+<p>蘋果香蕉流動性池 A-B LP，就是有人預先投入一定數量的 APPLE 和 BANANA，讓人可以隨時以 A 兌換（swap）B，或者以 B 兌換 A。比如 A-B LP 裡面放著 100 APPLE 和 100 BANANA，那麼 Alice 就可以付出 1 B 來換得接近 1 A，Bob 也可以付出 1 A 以換得接近 1 B。很簡單吧？</p>
+<p>至於為甚麼以上我說「接近」1 而不是整整 1，除了可能存在的手續費，更是因為當 Alice 付出 B 來換 A，代表市場上 A 的需求提高了，而 B 的供應增多了，ECO 101 告訴我們，A 的價格會上漲，B 的價格會下跌。</p>
+<p>有了 A-B LP，流動性的最基本條件達到了：想買的可以買到，想賣的能賣出。當然，流動性是否足夠高，就是另一回事了，比如 Carol 想要買 50 A，造成 A 大幅升值，B 大幅降價，而 Dave 甚至完全沒法買入 200 B，都是流動性不足的表現。以上我們懂了流動性池所以知道，只要 A-B LP 的規模不只有 100A+100B，而是 10000A+10000B，那麼 A-B 流動性就大大提高了。</p>
+<p>因此，要衡量 A-B 兩種資產之間的流動性，可以看</p>
+<ol>
+<li><strong>A-B LP 的規模</strong></li>
+<li><strong>A-B 的交易量</strong>，一般可看 1 天和 7 天</li>
+</ol>
+<p><strong>以 LIKE-OSMO 為例</strong></p>
+<p>讓我們脫離虛構的蘋果和香蕉，看看實際在發生的例子：LIKE 和 OSMO 之間的流動性。</p>
+<p>大寫 LIKE，是 LikeCoin 的代碼，而 OSMO，則是無大台交易所 Osmosis 的平台幣。LIKE-OSMO LP，是兩者之間的流動性池，讓任何人可以隨時在 OSMO 和 LIKE 兩種資產之間互換。查看<a href="http://web.archive.org/web/20211129133918/https://info.osmosis.zone/pool/553">鏈上開放數據</a>，該 LP 美元規模為 1,043,824，即內有等值 521,912 鎂的 LIKE 和等值 521,912 鎂 OSMO，過去 24 小時的交易量為 32,119 鎂，一週交易量為 234,019 鎂。簡言之，創作者化讚為賞獲得 LIKE，想要兌換成 OSMO，隨時可以。</p>
+<p>
+
+<figure>
+    <a href="http://web.archive.org/web/2020im_/https://ckxpress.com/wp-content/uploads/sites/8/2021/11/LIKE-OSMO-1024x236.png" target="calligraphy-image">
+      <img loading="lazy" src="http://web.archive.org/web/2020im_/https://ckxpress.com/wp-content/uploads/sites/8/2021/11/LIKE-OSMO-1024x236.png" alt="A Decorative Image">
+    </a>
+  
+</figure>
+</p>
+<blockquote>
+<p><a href="http://web.archive.org/web/20211129133918/https://info.osmosis.zone/pool/553">https://info.osmosis.zone/pool/553</a></p>
+</blockquote>
+<p>你說，你不是想兌換沒聽到過的 OSMO，而是要「真錢」美元？那我們可以看看以上的 UST-OSMO LP，三千八百多萬鎂等著你來兌換。兩個 LP 加起來，代表你可以 24×7 隨時把 LIKE 像轉機般經過中轉站 OSMO 兌換成美元穩定幣 UST，而且交易所會自動幫你一步搞定，不用操作兩次。</p>
+<p><strong>流動性就是生命力</strong></p>
+<p>流動性的英文是 liquidity，形象化地讓人聯想到廣東話中金錢的俗稱：水。</p>
+<p>資產跟資料都是，要懂得流動，才有意義。不懂得流動的資料，就像圖書館裡一本永遠沒有人借閱的書，是知識沒錯，卻是死的知識，從沒有由作者傳達給讀者。資產也一樣，缺乏流動性就沒法運用起來，很可能資產的持有者只是「生人霸死地」，以台灣流行的說法，就是「佔著屎坑不拉屎」。持有它的人不好好利用，有能力利用好的人沒法得到它，影響的不只是個人，而是整個社會、整個世界都沒法往前走。</p>
+<p>回到以上 LIKE 的實際例子，要是缺乏流動性，LikeCoin 的持有人會擔心沒法客觀衡量市價，也沒有人願意收取 LIKE 來提供服務，生怕沒有出口，得物無所用。反過來，當 LIKE 有充足的流動性，而且客觀、清晰、透明，更無須身分認證就能交易，所有人便可以放心持有和收取 LikeCoin，做到「創作可以當飯吃」。</p>
+<p>且讓資產 be water，my friend。</p>
+<hr>
+<p><strong>延伸閱讀</strong></p>
+<ol>
+<li><a href="http://web.archive.org/web/20211129133918/https://ckxpress.com/free-as-in-freedom/">期許「創作可以當飯吃」的四年後，我上月 LikeCoin 收入 1700 鎂</a></li>
+<li><a href="http://web.archive.org/web/20211129133918/https://ckxpress.com/pro-establishment/">談到金錢，每個人都是建制派</a></li>
+<li><a href="http://web.archive.org/web/20211129133918/https://ckxpress.com/1btc-equals-1btc/">對於薩爾瓦多人，1 BTC = 1 BTC</a></li>
+<li><a href="http://web.archive.org/web/20211129133918/https://ckxpress.com/aml-ctf-regulation/">只許富人投資，不准窮撚進場：監管密碼貨幣的神邏輯</a></li>
+<li><a href="http://web.archive.org/web/20211129133918/https://ckxpress.com/bitcoin-pizza-day/">我們都是 Bitcoin Pizza Day 的主角</a></li>
+<li><a href="http://web.archive.org/web/20211129133918/https://ckxpress.com/a-dictionary-of-money/">金錢字典：貨幣、黃金、法幣、通貨、比特幣</a></li>
+</ol>
+<p>原刊於<a href="http://web.archive.org/web/20211129133918/https://ckxpress.com/on-liquidity/">作者網誌</a></p>
+
+  </section>
+  	
+  	
+  	
+<footer class="card-footer">
+  <ul class="taxonomy-list_tags">
+    <li><a href="/topics/%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3/" class="taxonomy-item">加密貨幣</a></li>
+  </ul>
+</footer>
+
+</article>
+    
+    
+  
+
+    
+  
+<footer class="l-container_footer">
+  <nav class="pagination">
+    <a href="/topic/%E7%A9%BA%E6%8A%95%E4%BB%A4%E4%BA%BA%E7%84%A1%E6%95%85%E7%99%BC%E8%B2%A1%E9%9B%B6%E9%A2%A8%E9%9A%AA%E7%8D%8E%E5%8B%B5%E5%A6%82%E4%BD%95%E5%BE%97%E5%88%B0/" class="pagination-new" role="button"><span class="pagination-title">Next Post</span><br><span>空投令人無故發財！？零風險獎勵如何得到？！</span></a>
+    <a href="/topic/%E6%B0%91%E4%B8%BB%E6%B4%BE%E5%88%9D%E9%81%B8-47-%E4%BA%BA%E6%A1%88%E5%86%8D%E6%8F%90%E8%A8%8A-%E5%BB%B6%E9%80%BE%E4%B8%80%E5%B0%8F%E6%99%82%E6%9C%AA%E9%96%8B%E5%BA%AD-%E5%AE%B6%E5%B1%AC%E9%BC%93%E8%AD%9F%E4%B8%8D%E5%B0%8A%E9%87%8D%E4%BE%86%E6%97%81%E8%81%BD%E7%9A%84%E5%B8%82%E6%B0%91/" class="pagination-old" role="button"><span class="pagination-title">Previous Post</span><br><span>民主派初選 47 人案再提訊　延逾一小時未開庭　家屬鼓噪：不尊重旁聽市民</span></a>
+  </nav>
+</footer>
+
+  </main>
+  
+  <footer id="site-footer">
+  <p> | Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/pacollins/calligraphy">Calligraphy</a></p>
+</footer>
+<script type="text/javascript" src="/js/bundle.min.4d7a56d861db7bbd6cadc54ede14158fddb7b9c2880a59b98e8382318dfbe688.js" crossorigin="anonymous" integrity="sha256-TXpW2GHbe71srcVO3hQVj923ucKIClm5joOCMY375og="></script>
+
+  
+
+</body>
+
+</html>
