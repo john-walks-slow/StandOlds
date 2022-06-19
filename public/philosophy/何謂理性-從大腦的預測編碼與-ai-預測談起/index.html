@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+  <title>
+    
+    何謂理性？ — 從大腦的預測編碼與 AI 預測談起 | StandOlds
+    
+  </title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <meta name="description" content="圖片來源：Tayla Jeffs, Unsplash
+ 什麼是理性？在不同學科中，「理性」一詞可指相當不同的事物。它可能涉及理想的推論規則（如邏輯學），或實際上人類不完美的思考方式（如認知科學）；它可關於抽象概念的推導（如知識論）或解決具體生存難題（生物學、行為科學）；它可以透過大腦推理的過程加以評估（如心智哲學、心理學中的「程序理性」），亦能藉由行為帶來的效益來衡量（如經濟學、政治學中的「結果理性」）。似乎任何學科都可以輕易提供一操作定義，並評估所研究的對象是否具有理性。那麼，「理性」這概念究竟從何而來？
+理性簡史
+「理性 (rationality)」一詞源自拉丁文 &ldquo;ratio&rdquo; 對希臘文 &ldquo;logos&rdquo; 的翻譯，而&quot;logos&quot; 具有「觀點、言談、邏輯、推理」等多重意義。古希臘時期，亞里斯多德認為人類本質的定義特徵，即為理性，其 De Anima 指出萬物都是由形式和物質構成。雖然植物、動物和人類都有靈魂，但理性卻是人類所獨有。亞里斯多德認為理性無法化約成更基本的元素，理性並非一種能力，而是擁有能力的方式 (Boyle 2016) 。這種擁有能力的獨特方式乃人異於動、植物之處。
+亞里斯多德對理性的看法，到了歐洲啟蒙時代慢慢出現轉變，理性開始與科學推論的能力有關。儘管人類仍是討論的焦點，但理性不再是區分人與動物的判準。例如笛卡爾在 Discourse on the Method 雖否認動物有理性，但認為語言才是人類獨有的決定性特徵；他主張動物僅是設計精巧的機器，就算有人設計出一機器在外觀和動作上都可以與人類相似，但仍然無法與我們自然對話，因為語言是人類所獨有。語言才是區別人與動物的判準，而非理性。
+二十世紀後，笛卡爾的語言判準被英國邏輯學家艾倫·圖靈 (Alan Turing 1950) 顛倒過來。他反問：如果機器在自然語言對話中的輸出與人類的口語輸出無法被區別，是否就可以將機器判定為和人一樣具有智能？這個判準後來成為人工智慧領域中著名的「圖靈測試 (Turing test) 」，它也挑戰了人類與非人類的區分。儘管圖靈並無直接探討機器的理性問題，但他的研究卻為此開了大門。到了九零年代後，心理學在雙系統 (dual process system) 的研究指出，大腦某些推論程序是自動、快速、不受意識所控制的；這些推論機制在演化上相對古老，且與許多其他動物共享。同時，人工智慧的研究也顯示，人造自主適應系統不僅可用演繹邏輯和歸納統計來推理，還可混合兩者。這些研究挑戰了傳統觀點—「推理必須是有意識的，且必須由人來進行」。
+換言之，在歐洲啟蒙運動後，「理性」被賦予了新的含義，成為與推論相關的科學概念，不再是區分人類和非人類的標準。而近年來，隨著動物認知與人工智慧研究的興起，非人系統（如動物與 AI）在何種意義上也能推理和具有理性，更成為一個有趣的問題。
+理性與推論
+雖然「理性」的定義眾多，但在哲學與認知科學中的主流觀點，則稱之為「理性的標準圖像 (standard picture)」，其定義為：「a 是理性的，若且唯若 a 以符合邏輯和概率規則的方式進行推論」。這個定義受啟蒙運動影響，將邏輯與統計的推論法則當成是人類的推論法則。不論培根的歸納法或笛卡爾的演繹法皆屬之。其中，「推論 (inference) 」成了「理性」定義中的關鍵概念。
+但什麼是推論呢？根據牛津英文字典，「推論」是指從一個命題推導到另一個命題，其同義詞包括「演繹」、「推理」和「歸結」。知識論上，已有豐富文獻在討論推理的本質。例如紐約大學哲學教授 Paul Boghossian (2014) 認為推論是人的心理行動，他提出的 &ldquo;taking condition&rdquo; 判準指出人必須以自己的「前提」來支持其「結論」，而這個 taking 的心理行動不必是有意識的，但至少能變成有意識的。這個推論判準曾引發了許多論戰。然而，這些論戰多聚焦於人類行為者「個人層次 (personal level) 」的信念與傾向，它既不涉及非人類，也不討論大腦與計算架構等「次人層次 (subpersonal level) 」的解釋，故不適合當前探究所需。因此，我們需要一新的「推論」定義，而此定義不至於在一開始就排除非人系統與次人層次的處理程序。
+猶幸認知科學提了供我們所需的理論框架：預測編碼假說 (predictive coding hypothesis) 主張，大腦是一功能強大的統計推理引擎，會不斷根據過去的知識來產生對外在世界的預期。預測編碼假說與過去認知科學理論的最大差異，在於它主張人類的知覺並非被動地、由下而上地接受外在刺激。相反的，大腦會主動地、由上而下地產生對知覺內容的預測。此假說有兩個核心概念：一是「預測」，另一是「錯誤」。當大腦根據過去知識產生的先驗預測與當下的刺激有誤差時，大腦必須將此誤差最小化。這種誤差，又被稱作自由能(free energy)。若要降低自由能，則需透過貝氏推論 (Bayesian inference) 來輸出最佳預測假設。如果預測有誤，則錯誤信號將被送回認知系統的前進模型，以產生校正後的外部感受性預測（即 perceptual update），或是產生自體感受性預測（即 motor control），以消彌誤差。大腦這種更新預測並降低誤差的處理程序，又被稱為「主動推理 (active inference) 」(Hohwy 2013; Clark 2015)。">
+  <meta name="generator" content="Hugo 0.92.0" />
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="/css/bundle.min.8974faa57fedc134769cd508a1b6f7e5d39cbe42bc2df9b5ca66b9f0fd9cf7ab.css" crossorigin="anonymous" integrity="sha256-iXT6pX/twTR2nNUIobb35dOcvkK8Lfm1yma58P2c96s=">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+  
+  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#00aba9">
+  
+  <link rel="shortcut icon" href="/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#00aba9">
+  <meta name="keywords" content="ai">
+  <meta name="og:title" content="何謂理性？ — 從大腦的預測編碼與 AI 預測談起">
+  <meta name="og:description" content="圖片來源：Tayla Jeffs, Unsplash
+ 什麼是理性？在不同學科中，「理性」一詞可指相當不同的事物。它可能涉及理想的推論規則（如邏輯學），或實際上人類不完美的思考方式（如認知科學）；它可關於抽象概念的推導（如知識論）或解決具體生存難題（生物學、行為科學）；它可以透過大腦推理的過程加以評估（如心智哲學、心理學中的「程序理性」），亦能藉由行為帶來的效益來衡量（如經濟學、政治學中的「結果理性」）。似乎任何學科都可以輕易提供一操作定義，並評估所研究的對象是否具有理性。那麼，「理性」這概念究竟從何而來？
+理性簡史
+「理性 (rationality)」一詞源自拉丁文 &ldquo;ratio&rdquo; 對希臘文 &ldquo;logos&rdquo; 的翻譯，而&quot;logos&quot; 具有「觀點、言談、邏輯、推理」等多重意義。古希臘時期，亞里斯多德認為人類本質的定義特徵，即為理性，其 De Anima 指出萬物都是由形式和物質構成。雖然植物、動物和人類都有靈魂，但理性卻是人類所獨有。亞里斯多德認為理性無法化約成更基本的元素，理性並非一種能力，而是擁有能力的方式 (Boyle 2016) 。這種擁有能力的獨特方式乃人異於動、植物之處。
+亞里斯多德對理性的看法，到了歐洲啟蒙時代慢慢出現轉變，理性開始與科學推論的能力有關。儘管人類仍是討論的焦點，但理性不再是區分人與動物的判準。例如笛卡爾在 Discourse on the Method 雖否認動物有理性，但認為語言才是人類獨有的決定性特徵；他主張動物僅是設計精巧的機器，就算有人設計出一機器在外觀和動作上都可以與人類相似，但仍然無法與我們自然對話，因為語言是人類所獨有。語言才是區別人與動物的判準，而非理性。
+二十世紀後，笛卡爾的語言判準被英國邏輯學家艾倫·圖靈 (Alan Turing 1950) 顛倒過來。他反問：如果機器在自然語言對話中的輸出與人類的口語輸出無法被區別，是否就可以將機器判定為和人一樣具有智能？這個判準後來成為人工智慧領域中著名的「圖靈測試 (Turing test) 」，它也挑戰了人類與非人類的區分。儘管圖靈並無直接探討機器的理性問題，但他的研究卻為此開了大門。到了九零年代後，心理學在雙系統 (dual process system) 的研究指出，大腦某些推論程序是自動、快速、不受意識所控制的；這些推論機制在演化上相對古老，且與許多其他動物共享。同時，人工智慧的研究也顯示，人造自主適應系統不僅可用演繹邏輯和歸納統計來推理，還可混合兩者。這些研究挑戰了傳統觀點—「推理必須是有意識的，且必須由人來進行」。
+換言之，在歐洲啟蒙運動後，「理性」被賦予了新的含義，成為與推論相關的科學概念，不再是區分人類和非人類的標準。而近年來，隨著動物認知與人工智慧研究的興起，非人系統（如動物與 AI）在何種意義上也能推理和具有理性，更成為一個有趣的問題。
+理性與推論
+雖然「理性」的定義眾多，但在哲學與認知科學中的主流觀點，則稱之為「理性的標準圖像 (standard picture)」，其定義為：「a 是理性的，若且唯若 a 以符合邏輯和概率規則的方式進行推論」。這個定義受啟蒙運動影響，將邏輯與統計的推論法則當成是人類的推論法則。不論培根的歸納法或笛卡爾的演繹法皆屬之。其中，「推論 (inference) 」成了「理性」定義中的關鍵概念。
+但什麼是推論呢？根據牛津英文字典，「推論」是指從一個命題推導到另一個命題，其同義詞包括「演繹」、「推理」和「歸結」。知識論上，已有豐富文獻在討論推理的本質。例如紐約大學哲學教授 Paul Boghossian (2014) 認為推論是人的心理行動，他提出的 &ldquo;taking condition&rdquo; 判準指出人必須以自己的「前提」來支持其「結論」，而這個 taking 的心理行動不必是有意識的，但至少能變成有意識的。這個推論判準曾引發了許多論戰。然而，這些論戰多聚焦於人類行為者「個人層次 (personal level) 」的信念與傾向，它既不涉及非人類，也不討論大腦與計算架構等「次人層次 (subpersonal level) 」的解釋，故不適合當前探究所需。因此，我們需要一新的「推論」定義，而此定義不至於在一開始就排除非人系統與次人層次的處理程序。
+猶幸認知科學提了供我們所需的理論框架：預測編碼假說 (predictive coding hypothesis) 主張，大腦是一功能強大的統計推理引擎，會不斷根據過去的知識來產生對外在世界的預期。預測編碼假說與過去認知科學理論的最大差異，在於它主張人類的知覺並非被動地、由下而上地接受外在刺激。相反的，大腦會主動地、由上而下地產生對知覺內容的預測。此假說有兩個核心概念：一是「預測」，另一是「錯誤」。當大腦根據過去知識產生的先驗預測與當下的刺激有誤差時，大腦必須將此誤差最小化。這種誤差，又被稱作自由能(free energy)。若要降低自由能，則需透過貝氏推論 (Bayesian inference) 來輸出最佳預測假設。如果預測有誤，則錯誤信號將被送回認知系統的前進模型，以產生校正後的外部感受性預測（即 perceptual update），或是產生自體感受性預測（即 motor control），以消彌誤差。大腦這種更新預測並降低誤差的處理程序，又被稱為「主動推理 (active inference) 」(Hohwy 2013; Clark 2015)。">
+  <meta name="og:type" content="article">
+  <meta name="og:site_name" content="StandOlds">
+  <meta name="og:url" content="/philosophy/%E4%BD%95%E8%AC%82%E7%90%86%E6%80%A7-%E5%BE%9E%E5%A4%A7%E8%85%A6%E7%9A%84%E9%A0%90%E6%B8%AC%E7%B7%A8%E7%A2%BC%E8%88%87-ai-%E9%A0%90%E6%B8%AC%E8%AB%87%E8%B5%B7/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="og:image" content="">
+  <meta name="twitter:image" content="">
+  
+  
+  
+  
+</head>
+
+<body>
+
+  <script type="text/javascript">
+    
+    function detectTheme() {
+      var theme = "light";
+
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        var theme = "dark";
+      }
+
+      if (localStorage.getItem("theme")) {
+        var theme = localStorage.getItem("theme");
+      }
+
+      if (theme == "dark") {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    }
+
+    detectTheme();
+  </script>
+  
+  <header id="site-header" class="l-compact">
+  <nav class="l-container_site">
+    <div class="branding">
+        <h1 class="branding-title">
+          <a href="/" accesskey="h" title="Home (Alt + H)">StandOlds</a>
+        </h1>
+      <p class="branding-tagline">立場新聞 2015~2021 精選</p>
+    </div>
+    
+    <div id="site-nav">
+      <label class="toggle" accesskey="n" title="Open Site Navigation (Alt + N)">
+        <input id="nav-toggle" type="checkbox"></input>
+        <span class="nav-button"></span>
+      </label>
+      <ul class="menu">
+        <li class="menu-item">
+          <a href="/topics/">專題</a>
+        </li>
+        <li class="menu-item">
+          <a href="/categories/">分類</a>
+        </li>
+        <li class="menu-item">
+          <a href="/about/">關於</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <progress id="reading-progress" max="100" value="0" ></progress>
+</header>
+
+  
+
+  <main id="site-main" role="main">
+    
+<article class="l-container_content card">
+  <header class="card-header">
+  
+  <div class="card-meta">
+    
+  
+    <span><time datetime="2020-03-26 09:45:00 &#43;0000 UTC">Mar 26 2020</time> · 9 min read</span>
+    <ul class="taxonomy-list_categories">
+      <li><a href="/categories/%E5%93%B2%E5%AD%B8/" class="taxonomy-item">哲學</a></li>
+    </ul>
+  </div>
+  <h1 class="card-title"><a href="/philosophy/%E4%BD%95%E8%AC%82%E7%90%86%E6%80%A7-%E5%BE%9E%E5%A4%A7%E8%85%A6%E7%9A%84%E9%A0%90%E6%B8%AC%E7%B7%A8%E7%A2%BC%E8%88%87-ai-%E9%A0%90%E6%B8%AC%E8%AB%87%E8%B5%B7/">何謂理性？ — 從大腦的預測編碼與 AI 預測談起</a></h1>
+  
+
+  
+
+</header>
+
+  <section class="card-content">
+    <p>
+
+<figure>
+    <a href="http://web.archive.org/web/2020im_/https://assets.thestandnews.com/media/photos/Background_XSvht.png" target="calligraphy-image">
+      <img loading="lazy" src="http://web.archive.org/web/2020im_/https://assets.thestandnews.com/media/photos/Background_XSvht.png" alt="A Decorative Image">
+    </a>
+  
+</figure>
+</p>
+<blockquote>
+<p>圖片來源：Tayla Jeffs, Unsplash</p>
+</blockquote>
+<p>什麼是理性？在不同學科中，「理性」一詞可指相當不同的事物。它可能涉及理想的推論規則（如邏輯學），或實際上人類不完美的思考方式（如認知科學）；它可關於抽象概念的推導（如知識論）或解決具體生存難題（生物學、行為科學）；它可以透過大腦推理的過程加以評估（如心智哲學、心理學中的「程序理性」），亦能藉由行為帶來的效益來衡量（如經濟學、政治學中的「結果理性」）。似乎任何學科都可以輕易提供一操作定義，並評估所研究的對象是否具有理性。那麼，「理性」這概念究竟從何而來？</p>
+<p><strong>理性簡史</strong></p>
+<p>「理性 (rationality)」一詞源自拉丁文 &ldquo;ratio&rdquo; 對希臘文 &ldquo;logos&rdquo; 的翻譯，而&quot;logos&quot; 具有「觀點、言談、邏輯、推理」等多重意義。古希臘時期，亞里斯多德認為人類本質的定義特徵，即為理性，其 <em>De Anima</em> 指出萬物都是由形式和物質構成。雖然植物、動物和人類都有靈魂，但理性卻是人類所獨有。亞里斯多德認為理性無法化約成更基本的元素，理性並非一種能力，而是擁有能力的方式 (Boyle 2016) 。這種擁有能力的獨特方式乃人異於動、植物之處。</p>
+<p>亞里斯多德對理性的看法，到了歐洲啟蒙時代慢慢出現轉變，理性開始與科學推論的能力有關。儘管人類仍是討論的焦點，但理性不再是區分人與動物的判準。例如笛卡爾在 <em>Discourse on the Method</em> 雖否認動物有理性，但認為語言才是人類獨有的決定性特徵；他主張動物僅是設計精巧的機器，就算有人設計出一機器在外觀和動作上都可以與人類相似，但仍然無法與我們自然對話，因為語言是人類所獨有。語言才是區別人與動物的判準，而非理性。</p>
+<p>二十世紀後，笛卡爾的語言判準被英國邏輯學家艾倫·圖靈 (Alan Turing 1950) 顛倒過來。他反問：如果機器在自然語言對話中的輸出與人類的口語輸出無法被區別，是否就可以將機器判定為和人一樣具有智能？這個判準後來成為人工智慧領域中著名的「圖靈測試 (Turing test) 」，它也挑戰了人類與非人類的區分。儘管圖靈並無直接探討機器的理性問題，但他的研究卻為此開了大門。到了九零年代後，心理學在雙系統 (dual process system) 的研究指出，大腦某些推論程序是自動、快速、不受意識所控制的；這些推論機制在演化上相對古老，且與許多其他動物共享。同時，人工智慧的研究也顯示，人造自主適應系統不僅可用演繹邏輯和歸納統計來推理，還可混合兩者。這些研究挑戰了傳統觀點—「推理必須是有意識的，且必須由人來進行」。</p>
+<p>換言之，在歐洲啟蒙運動後，「理性」被賦予了新的含義，成為與推論相關的科學概念，不再是區分人類和非人類的標準。而近年來，隨著動物認知與人工智慧研究的興起，非人系統（如動物與 AI）在何種意義上也能推理和具有理性，更成為一個有趣的問題。</p>
+<p><strong>理性與推論</strong></p>
+<p>雖然「理性」的定義眾多，但在哲學與認知科學中的主流觀點，則稱之為「理性的標準圖像 (standard picture)」，其定義為：「a 是理性的，若且唯若 a 以符合邏輯和概率規則的方式進行推論」。這個定義受啟蒙運動影響，將邏輯與統計的推論法則當成是人類的推論法則。不論培根的歸納法或笛卡爾的演繹法皆屬之。其中，「推論 (inference) 」成了「理性」定義中的關鍵概念。</p>
+<p>但什麼是推論呢？根據牛津英文字典，「推論」是指從一個命題推導到另一個命題，其同義詞包括「演繹」、「推理」和「歸結」。知識論上，已有豐富文獻在討論推理的本質。例如紐約大學哲學教授 Paul Boghossian (2014) 認為推論是人的心理行動，他提出的 &ldquo;taking condition&rdquo; 判準指出人必須以自己的「前提」來支持其「結論」，而這個 taking 的心理行動不必是有意識的，但至少能變成有意識的。這個推論判準曾引發了許多論戰。然而，這些論戰多聚焦於人類行為者「個人層次 (personal level) 」的信念與傾向，它既不涉及非人類，也不討論大腦與計算架構等「次人層次 (subpersonal level) 」的解釋，故不適合當前探究所需。因此，我們需要一新的「推論」定義，而此定義不至於在一開始就排除非人系統與次人層次的處理程序。</p>
+<p>猶幸認知科學提了供我們所需的理論框架：預測編碼假說 (predictive coding hypothesis) 主張，大腦是一功能強大的統計推理引擎，會不斷根據過去的知識來產生對外在世界的預期。預測編碼假說與過去認知科學理論的最大差異，在於它主張人類的知覺並非被動地、由下而上地接受外在刺激。相反的，大腦會主動地、由上而下地產生對知覺內容的預測。此假說有兩個核心概念：一是「預測」，另一是「錯誤」。當大腦根據過去知識產生的先驗預測與當下的刺激有誤差時，大腦必須將此誤差最小化。這種誤差，又被稱作自由能(free energy)。若要降低自由能，則需透過貝氏推論 (Bayesian inference) 來輸出最佳預測假設。如果預測有誤，則錯誤信號將被送回認知系統的前進模型，以產生校正後的外部感受性預測（即 perceptual update），或是產生自體感受性預測（即 motor control），以消彌誤差。大腦這種更新預測並降低誤差的處理程序，又被稱為「主動推理 (active inference) 」(Hohwy 2013; Clark 2015)。</p>
+<p>主動推理的能力，並非人類所獨有。美國加州大學心智哲學家 Nico Orlandi (2018) 就指出所有的生物系統，如要適應環境的變化並存活，都必須盡量減少自由能（例如及時修正預測或藉由行動改變環境），以避免混淆並保持行動的慣性。這便是所謂的「自由能最小化原則」。植物學家與行為神經科學家 Paco Calvo &amp; Karl Friston (2017) 更指出不只是動物，植物在生長與可回復運動中亦展現類似的預期行為；例如不少植物會依據每日太陽軌跡的規律（基於光刺激頻率或機率），預先改變其表型（即 phenotypic plasticity）以將光合作用效率最佳化。他們認為，植物這種預期行為也可透過自由能和預測編碼假說來解釋。</p>
+<p>不過需要釐清的是，雖然各種生物都透過不同的貝氏推理策略來縮小自由能，而滿足標準圖像的「理性」定義，但這頂多指出植物和人類「一樣具有理性能力」，而不意味著植物和人類「具有一樣的理性能力」，這是因為不同生物的推論能力反映了迥異的理性能力；這種能力既涉及程度差異（例如 2D vs. 3D 空間推理），也涉及種類差異（鳥類空間推理 vs. 人類語言推理）。</p>
+<p>例如單細胞生物（如大腸桿菌）要獲取營養並避免毒素，則須具備最低要求的空間推理能力來計算目標的距離和方向。然而，這種最低要求的空間推理能力，對於生活在更複雜環境中的哺乳動物掠食者顯然不夠。又例如蝙蝠或可不需視覺刺激，只靠超音波便可空間定位，但人類需要更複雜的空間推理能力來整合來自多模態的感官刺激。同樣地，細菌或可藉由傳遞化學信號來溝通與協調運動，但它們並無法和人類一樣以語言推論。因此，即便我們說細菌和人類在某些情況下都具符合邏輯或機率的推論能力，皆具「理性」能力，這並不意味著兩者在相同的意義和程度上都是理性的。</p>
+<p>事實上，理性的多樣性除了反映在程度與類型外，其硬體實現亦不必限於神經細胞，而可以是矽晶體。故靈長類的大腦並非理性的必要條件。理論上，所有與環境互動的自主適應系統 (autonomous adaptive system) 都仰賴這種主動推理方式來降低自由能。這種推論在適當條件下（如足夠時間、資源、計算能力）往往符合邏輯或機率的規則，而滿足標準圖像的「理性」定義。例如目前的機器學習，已經能夠精準地根據人類所輸入的數據，歸納出規則或模式，從而產生對未來事件的相關預測。依此，若將來真正具有自主性的人工適應系統被創造出來，我們是否已經準備好承認這類人工智慧系統也可能有理性？</p>
+<p><strong>理性：從文化產物到科學現象</strong></p>
+<p>對於懷疑論者來說，尤其是在西方文化傳統下的歐美人士來說，要承認非人系統（如細菌與 AI）也可能具有理性，似乎是違反直覺，且在情感上難以接受的。但有趣的是，假若理性是人類特徵，此概念為何僅存在西方文化中？</p>
+<p>事實上，儘管我們的祖先散居地球不同環境棲地，也具有迥異的語言文化，但人類語言中卻共享許多相同的特徵。例如在希臘、美索不達米亞、中美洲、印度等不同文明中，都可發現關於畢氏定理的描述或證明，或以幾何，或以形式符號、或以自然語言方式呈現。同樣，不少文明中都可發現相對應的文字來表達「知識」、「智慧」、「語言」、「情緒」等概念，唯獨「理性」似乎不具這種普遍性。</p>
+<p>舉例來說，佛教強調眾生平等，即便動物也可能具有佛性。莊子則認為即便「虎狼」亦是「仁也」。至於儒家雖強調人獸之辨，但孟子認為人類除了仁義外「異於禽獸者幾希」，荀子則認為「禽獸有知而無義」。事實上，直到十九世紀現代化以前，許多亞洲文化（例如漢、日、韓、越）都沒有對應於&quot;rationality/ratio&quot;的概念。1916年臺灣哲學家林茂生甚至還在東京哲學會學術期刊《東亜研究》上發表專文探討康德、笛卡兒的「理性」與陽明學中的「良知」之異同。換言之，源自古希臘的「理性」最初是否只是文化的偶然？</p>
+<p>此外，另個與「理性」有關的是「真理 (truth)」的概念。西方傳統下，若有人同時相信 p 與非 p ，則很難被視為是理性的。然而，儘管古代東方哲學家也具備真理概念，但對真理的態度卻迥異。例如，先秦經典中常出現前後不融貫或互相矛盾的文本。因此，相較於人類所共享的其他概念，西方啟蒙前的「理性」可能只是一文化建構。</p>
+<p>最後綜合觀之，自歐洲啟蒙運動以降，「理性」已成為一普遍的科學概念，不再只是希臘愛琴海的文化特產，如同 &ldquo;Mars&rdquo; 不再只是指羅馬神話中的戰神，而被現代天文學用來指稱太陽系第二小的行星。因此，我們無須自囿於「理性乃人類所獨有」等獨斷信仰，或該放棄人類中心主義之局限，如同中世紀放棄地球中心之偏見一樣。故而承認人類和細菌、 AI 有可能具有不同類型、程度與硬體實現的推論與理性能力，似乎就不是那麼荒謬難以接受。或許，以開放的態度來理解此一科學的普遍概念，更有助於我們從宏觀的視野，理解浩瀚宇宙中智慧的多元形式與理性之多樣性。</p>
+<p>參考書目</p>
+<p>Boghossian, P. (2014). What is inference? <em>Philosophical Studies</em>, 169(1), 1-18.</p>
+<p>Boyle, M. (2016). Additive theories of rationality: A critique. <em>European Journal of Philosophy</em>, 24(3), 527-555.</p>
+<p>Calvo, P., &amp; Friston, K. (2017). Predicting green: really radical (plant) predictive processing. <em>Journal of The Royal Society Interface</em>, 14(131), 20170096.</p>
+<p>Turing, A. (1950), &ldquo;Computing Machinery and Intelligence&rdquo;, <em>Mind</em>, LIX (236): 433–460.</p>
+<p>Clark, A. (2015). Embodied prediction. <em>Open MIND</em>. Frankfurt am Main: MIND Group.</p>
+<p>Hung, T.-W. (2016). Rationality and Escherichia coli. In Tzu-wei Hung and Timothy Joseph Lane (eds.) <em>Rationality: Constraints and Contexts</em>. Elsevier Academic Press</p>
+<p>Hohwy, J (2013). <em>The Predictive Mind</em>. Oxford University Press.</p>
+<p>Orlandi, N. (2018). Predictive perceptual systems. <em>Synthese</em>, 195(6), 2367-2386.</p>
+
+  </section>
+  	
+  	
+  	
+<footer class="card-footer">
+  <ul class="taxonomy-list_tags">
+  </ul>
+</footer>
+
+</article>
+    
+    
+  
+
+    
+  
+<footer class="l-container_footer">
+  <nav class="pagination">
+    <a href="/philosophy/%E5%B0%8D%E8%AB%87-%E4%BD%9B%E5%AD%B8-%E5%93%B2%E5%AD%B8-%E5%91%BD%E7%90%86%E5%AD%B8-%E4%B8%8A/" class="pagination-new" role="button"><span class="pagination-title">Next Post</span><br><span>【對談】佛學、哲學、命理學（上）</span></a>
+    <a href="/philosophy/%E5%B0%BC%E9%87%87%E7%9A%84%E5%80%8B%E4%BA%BA%E5%9C%96%E6%9B%B8%E9%A4%A8%E5%8F%8A%E5%85%B6%E6%80%9D%E6%83%B3%E8%84%88%E7%B5%A1/" class="pagination-old" role="button"><span class="pagination-title">Previous Post</span><br><span>尼采的個人圖書館及其思想脈絡</span></a>
+  </nav>
+</footer>
+
+  </main>
+  
+  <footer id="site-footer">
+  <p> | Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/pacollins/calligraphy">Calligraphy</a></p>
+</footer>
+<script type="text/javascript" src="/js/bundle.min.4d7a56d861db7bbd6cadc54ede14158fddb7b9c2880a59b98e8382318dfbe688.js" crossorigin="anonymous" integrity="sha256-TXpW2GHbe71srcVO3hQVj923ucKIClm5joOCMY375og="></script>
+
+  
+
+</body>
+
+</html>

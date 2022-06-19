@@ -1,6 +1,7 @@
 baseURL= "/"
 languageCode= "zh-HK"
-title= "StandOlds"
+title= "立場舊聞"
+brand= "StandOlds"
 # theme= "newsroom"
 theme= "calligraphy"
 contentDir= "./content"

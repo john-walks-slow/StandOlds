@@ -6,7 +6,16 @@
     <description>Recent content in Categories on StandOlds</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-HK</language>
-    <lastBuildDate>Mon, 27 Dec 2021 16:28:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Dec 2021 10:11:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>哲學</title>
+      <link>/categories/%E5%93%B2%E5%AD%B8/</link>
+      <pubDate>Tue, 28 Dec 2021 10:11:00 +0000</pubDate>
+      
+      <guid>/categories/%E5%93%B2%E5%AD%B8/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>生活</title>
       <link>/categories/%E7%94%9F%E6%B4%BB/</link>
@@ -224,20 +233,20 @@
     </item>
     
     <item>
+      <title>Gaze</title>
+      <link>/categories/gaze/</link>
+      <pubDate>Tue, 11 Dec 2018 14:19:00 +0000</pubDate>
+      
+      <guid>/categories/gaze/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>跑步</title>
       <link>/categories/%E8%B7%91%E6%AD%A5/</link>
       <pubDate>Sat, 08 Sep 2018 09:27:00 +0000</pubDate>
       
       <guid>/categories/%E8%B7%91%E6%AD%A5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>哲學</title>
-      <link>/categories/%E5%93%B2%E5%AD%B8/</link>
-      <pubDate>Tue, 25 Apr 2017 16:11:00 +0000</pubDate>
-      
-      <guid>/categories/%E5%93%B2%E5%AD%B8/</guid>
       <description></description>
     </item>
     
