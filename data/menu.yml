@@ -1,6 +1,0 @@
-- item: Category
-  url: categories
-- item: Tag
-  url: tags
-- item: Authors
-  url: author

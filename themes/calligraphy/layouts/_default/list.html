@@ -4,7 +4,7 @@
   {{ range $paginator.Pages }}
   <article class="card">
     <figure>
-      <a href="{{ .RelPermalink }}"><img src="{{ .Params.image }}" ></a>
+      <a href="{{ .RelPermalink }}"><img src="{{ strings.Replace .Params.image "2021im_" "2020im_" }}" ></a>
     </figure>
     {{ partialCached "entry/header" . .Page }}
 

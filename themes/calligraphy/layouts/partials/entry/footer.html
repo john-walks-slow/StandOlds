@@ -1,7 +1,7 @@
 {{- if .Params.tags }}
 <footer class="card-footer">
   <ul class="taxonomy-list_tags">
-  {{- range (.GetTerms "tags") }}
+  {{- range (.GetTerms "topics") }}
     <li><a href="{{ .Permalink }}" class="taxonomy-item">{{ .LinkTitle }}</a></li>
   {{- end }}
   </ul>
