@@ -10,6 +10,7 @@ paginate = 20
 enableInlineShortcodes = true
 enableEmoji = true
 environment = "production"
+
 [params]
   tagline = "立場新聞 2015~2021 精選"
   cdn = false
@@ -52,7 +53,7 @@ environment = "production"
 
 [module.hugoVersion]
   extended = true
-  # min 0.89.0
+  min = "0.89.0"
 
 [privacy.twitter]
   enableDNT = true
