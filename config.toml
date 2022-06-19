@@ -53,7 +53,6 @@ environment = "production"
 
 [module.hugoVersion]
   extended = true
-  min = "0.89.0"
 
 [privacy.twitter]
   enableDNT = true
